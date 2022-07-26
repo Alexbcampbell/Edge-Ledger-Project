@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/utilities.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/lightbox.min.css">
   <title>Welcome To Edge Ledger</title>
 </head>
 <body id="home">
@@ -95,20 +96,37 @@
     </header>
     <div class="row">
       <div class="column">
-      <img src="./img/image_resources/cases/cases1.jpg" alt="">
-      <img src="./img/image_resources/cases/cases2.jpg" alt="">
-      </div>
-      <div class="column">
-      <img src="./img/image_resources/cases/cases3.jpg" alt="">
-      <img src="./img/image_resources/cases/cases4.jpg" alt="">
-      </div>
-      <div class="column">
-      <img src="./img/image_resources/cases/cases5.jpg" alt="">
-      <img src="./img/image_resources/cases/cases6.jpg" alt="">
-      </div>
-      <div class="column">
-      <img src="./img/image_resources/cases/cases7.jpg" alt="">
-      <img src="./img/image_resources/cases/cases8.jpg" alt="">
+        <a href="./img/image_resources/cases/cases1.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases1.jpg" alt="" >
+        </a>
+        <a href="./img/image_resources/cases/cases2.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases2.jpg" alt="" >
+        </a>
+        </div>
+        <div class="column">
+        <a href="./img/image_resources/cases/cases3.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases3.jpg" alt="" >
+        </a>
+        <a href="./img/image_resources/cases/cases4.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases4.jpg" alt="" >
+        </a>
+        </div>
+        <div class="column">
+        <a href="./img/image_resources/cases/cases5.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases5.jpg" alt="" >
+        </a>
+        <a href="./img/image_resources/cases/cases6.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases6.jpg" alt="" >
+        </a>
+        </div>
+        <div class="column">
+        <a href="./img/image_resources/cases/cases7.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases7.jpg" alt="" >
+        </a>
+        <a href="./img/image_resources/cases/cases8.jpg" data-lightbox="cases" data-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.">
+          <img src="./img/image_resources/cases/cases8.jpg" alt="" >
+        </a>
+        </div>
       </div>
     </div>
   </section>
@@ -211,6 +229,7 @@
 <p>Copyright &copy; 2020 - EdgeLedger</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./JS/lightbox.min.js"></script>
 <script>
   const navbar = document.getElementById('navbar');
   let scrolled = false;
